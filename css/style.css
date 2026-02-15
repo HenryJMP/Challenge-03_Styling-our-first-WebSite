@@ -107,10 +107,10 @@ table {
     width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
-    text-align: center;
     background-color: #ffffff;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    text-align: left;
 }
 
 table tbody tr:nth-child(odd) {
