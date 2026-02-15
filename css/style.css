@@ -1,9 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@300;400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* ------------------------------------ */
-/* WRITE YOUR CSS HERE :) */
-/* ------------------------------------ */
+head, header{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    background-color: #1a2a3a;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+header p{
+    color: #ffffff80;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav{
+    background-color: #343a40;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+a{
+    color: #e2e8f0;
+    background-color: #343a40;
+    margin: 1rem;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+    background-color: #3b82f6;
+    border-radius: 5px;
+}
+
+
+a:active{
+    color: white;
+    text-decoration: underline;
+    background-color: #164ca3;
+    border-radius: 5px;
+}
+
+head, header, nav, footer{
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7f6;
+}
+
+.highlight{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #3b82f610;
+  padding: 1rem;
+  border-left: 5px solid #3b82f6; 
+  font-style: italic;
+}
+
+.tool-card{
+    box-shadow: 4px 4px 8px 4px #00000020;
+    background-color: #ffffff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    margin: 2rem;
+}
+
+.tool-card h3{
+    color: rgb(27, 177, 27);
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    width: 100%;
+    align-self: center;
+}
+
+.container h2{
+    border-bottom: 2px solid #38bdf8;
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+table tbody tr:nth-child(odd) {
+    background: rgba(192, 192, 192, 0.459);
+}
+
+table tbody tr:hover{
+    background-color: #3b83f64b;
+}
+
+table thead{
+    color: white;
+    background-color: #3b82f6;
+}
+
+table tr, th, td{
+    padding: 1rem;
+}
